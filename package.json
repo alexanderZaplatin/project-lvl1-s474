@@ -23,8 +23,6 @@
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.4.3",
-    "package-lock.json": "^1.0.0",
-    "readline-sync": "^1.4.9"
+    "@babel/preset-env": "^7.4.3"
   }
 }
