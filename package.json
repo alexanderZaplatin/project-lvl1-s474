@@ -16,13 +16,22 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/durilka/project-lvl1-s474.git"
+    "url": "git+https://github.com/durilka/project-lvl1-s474.git"
   },
   "license": "ISC",
   "dependencies": {
     "@babel/cli": "^7.4.3",
     "@babel/core": "^7.4.3",
     "@babel/node": "^7.2.2",
-    "@babel/preset-env": "^7.4.3"
+    "@babel/preset-env": "^7.4.3",
+    "babel-eslint": "^10.0.1",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-jest": "^22.4.1",
+    "eslint-plugin-lodash-fp": "^2.2.0-a1"
+  },
+  "devDependencies": {
+    "eslint": "^5.16.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-import": "^2.16.0"
   }
 }
