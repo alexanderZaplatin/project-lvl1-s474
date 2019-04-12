@@ -7,5 +7,5 @@
 
 [![asciicast](https://asciinema.org/a/2bHsDT7NdpXoq7jM45iMSl10r.svg)](https://asciinema.org/a/2bHsDT7NdpXoq7jM45iMSl10r)
 
-#Installation and playCalc
+# Installation and playCalc
 [![asciicast](https://asciinema.org/a/lBIwntW2W5eD6q1q7424pfxAX.svg)](https://asciinema.org/a/lBIwntW2W5eD6q1q7424pfxAX)
