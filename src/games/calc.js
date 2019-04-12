@@ -1,0 +1,24 @@
+import game from '../gameCore';
+import getRandomInt from '../tools/getRandomInt';
+
+const description = 'What is the result of the expression?';
+
+const operations = [
+  ['+', (x, y) => x + y],
+  ['-', (x, y) => x - y],
+  ['*', (x, y) => x * y],
+];
+
+const getGame = () => {
+  const index = getRandomInt(0, operations.length - 1);
+  const [operation, operationFunc] = operations[index];
+
+  const x = getRandomInt(1, 100);
+  const y = getRandomInt(1, 100);
+
+  const question = `${x} ${operation} ${y}`;
+  const correctAnswer = operationFunc(x, y);
+  return [question, String(correctAnswer)];
+};
+
+export default () => game(description, getGame);
