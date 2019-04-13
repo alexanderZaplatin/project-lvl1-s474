@@ -17,8 +17,9 @@ const getDataGame = () => {
   const y = getRandomInt(1, 100);
 
   const question = `${x} ${operation} ${y}`;
-  const correctAnswer = operationFunc(x, y);
-  return [question, String(correctAnswer)];
+  const correctAnswer = String(operationFunc(x, y));
+  
+  return [question, correctAnswer];
 };
 
 export default () => play(description, getDataGame);
