@@ -18,7 +18,7 @@ const getDataGame = () => {
 
   const question = `${x} ${operation} ${y}`;
   const correctAnswer = String(operationFunc(x, y));
-  
+
   return [question, correctAnswer];
 };
 
