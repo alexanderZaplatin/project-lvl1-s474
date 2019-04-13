@@ -21,7 +21,7 @@ const getDataGame = () => {
   const y = getRandomInt(1, 100);
 
   const question = `${x} ${y}`;
-  const correctAnswer = getGcd(x, y);
+  const correctAnswer = String(getGcd(x, y));
 
   return [question, String(correctAnswer)];
 };
