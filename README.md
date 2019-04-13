@@ -12,3 +12,6 @@
 
 # Installation and playGcd 
 [![asciicast](https://asciinema.org/a/TEWSxKYDKL8KXmtc65S7PYJMa.svg)](https://asciinema.org/a/TEWSxKYDKL8KXmtc65S7PYJMa)
+
+# Installation and playProgression
+[![asciicast](https://asciinema.org/a/S838hLhVmKpiV7lRCOIOLt8LR.svg)](https://asciinema.org/a/S838hLhVmKpiV7lRCOIOLt8LR)
