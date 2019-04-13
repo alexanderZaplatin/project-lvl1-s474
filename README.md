@@ -9,3 +9,6 @@
 
 # Installation and playCalc
 [![asciicast](https://asciinema.org/a/lBIwntW2W5eD6q1q7424pfxAX.svg)](https://asciinema.org/a/lBIwntW2W5eD6q1q7424pfxAX)
+
+# Installation and playGcd 
+[![asciicast](https://asciinema.org/a/TEWSxKYDKL8KXmtc65S7PYJMa.svg)](https://asciinema.org/a/TEWSxKYDKL8KXmtc65S7PYJMa)
