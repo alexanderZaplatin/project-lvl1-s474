@@ -11,4 +11,4 @@ const getDataGame = () => {
   return [question, correctAnswer];
 };
 
-export default () => play(description, getGame);
+export default () => play(description, getDataGame);
