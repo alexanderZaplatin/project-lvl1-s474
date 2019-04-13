@@ -1,4 +1,4 @@
-import play from '../gameCore';
+import play from '..';
 import getRandomInt from '../tools/getRandomInt';
 
 const description = 'What is the result of the expression?';
