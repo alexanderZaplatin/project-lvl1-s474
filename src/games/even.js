@@ -1,4 +1,4 @@
-import play from '../gameCore';
+import play from '..';
 import getRandomInt from '../tools/getRandomInt';
 
 const description = 'Answer "yes" if number even otherwise answer "no".';
