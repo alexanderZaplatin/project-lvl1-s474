@@ -1,4 +1,4 @@
-import game from '../gameCore';
+import play from '../gameCore';
 import getRandomInt from '../tools/getRandomInt';
 
 const description = 'What is the result of the expression?';
@@ -9,7 +9,7 @@ const operations = [
   ['*', (x, y) => x * y],
 ];
 
-const getGame = () => {
+const getDataGame = () => {
   const index = getRandomInt(0, operations.length - 1);
   const [operation, operationFunc] = operations[index];
 
@@ -21,4 +21,4 @@ const getGame = () => {
   return [question, String(correctAnswer)];
 };
 
-export default () => game(description, getGame);
+export default () => play(description, getDataGame);
