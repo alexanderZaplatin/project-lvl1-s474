@@ -15,3 +15,6 @@
 
 # Installation and playProgression
 [![asciicast](https://asciinema.org/a/S838hLhVmKpiV7lRCOIOLt8LR.svg)](https://asciinema.org/a/S838hLhVmKpiV7lRCOIOLt8LR)
+
+# Installation and playPrime
+[![asciicast](https://asciinema.org/a/LJy4yYMBIT3HdYugo1zgRTMYG.svg)](https://asciinema.org/a/LJy4yYMBIT3HdYugo1zgRTMYG)
