@@ -21,7 +21,7 @@ const getDataGame = () => {
   const question = `${x} ${y}`;
   const correctAnswer = String(getGcd(x, y));
 
-  return [question, String(correctAnswer)];
+  return [question, correctAnswer];
 };
 
 export default () => play(description, getDataGame);
