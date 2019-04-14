@@ -2,7 +2,7 @@ import play from '..';
 import getRandomInt from '../tools/getRandomInt';
 
 const description = 'What number is missing in the progression?';
-const lengthProg = 10;
+const length = 10;
 const minRandom = 1;
 const maxRandom = 100;
 
@@ -11,7 +11,7 @@ const getProgression = () => {
   const firstElement = getRandomInt(minRandom, maxRandom);
   const step = getRandomInt(minRandom, maxRandom);
 
-  for (let i = 0; i < lengthProg; i += 1) {
+  for (let i = 0; i < length; i += 1) {
     const newElement = firstElement + (i * step);
     progression.push(newElement);
   }
@@ -20,7 +20,7 @@ const getProgression = () => {
 
 const getDataGeme = () => {
   const progression = getProgression();
-  const indexPositionColon = getRandomInt(0, lengthProg - 1);
+  const indexPositionColon = getRandomInt(0, length - 1);
 
   const correctAnswer = progression[indexPositionColon];
   progression[indexPositionColon] = '..';
