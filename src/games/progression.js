@@ -22,7 +22,7 @@ const getDataGeme = () => {
   const progression = getProgression();
   const indexPositionColon = getRandomInt(0, length - 1);
 
-  const correctAnswer = progression[indexPositionColon];
+  const correctAnswer = String(progression[indexPositionColon]);
   progression[indexPositionColon] = '..';
   const question = String(progression.join(' '));
 
