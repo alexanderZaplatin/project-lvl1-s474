@@ -5,7 +5,7 @@ This is a set of mini-games launched from the console. These games are similar t
 
 [![Build Status](https://travis-ci.com/durilka/project-lvl1-s474.svg?branch=master)](https://travis-ci.com/durilka/project-lvl1-s474)
 
-## Setup 
+# Setup 
 ```sh
 $sudo npm install -g brain-games-durilka
 
