@@ -11,12 +11,12 @@ const operations = [
 
 const getDataGame = () => {
   const index = getRandomInt(0, operations.length - 1);
-  const [operation, operationFunc] = operations[index];
+  const [operator, operationFunc] = operations[index];
 
   const x = getRandomInt(1, 100);
   const y = getRandomInt(1, 100);
 
-  const question = `${x} ${operation} ${y}`;
+  const question = `${x} ${operator} ${y}`;
   const correctAnswer = String(operationFunc(x, y));
 
   return [question, correctAnswer];
