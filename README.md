@@ -25,3 +25,6 @@ $ sudo npm install -g brain-games-durilka
 
 # Installation and playPrime
 [![asciicast](https://asciinema.org/a/LJy4yYMBIT3HdYugo1zgRTMYG.svg)](https://asciinema.org/a/LJy4yYMBIT3HdYugo1zgRTMYG)
+
+#gif
+asciicast2gif https://asciinema.org/a/S838hLhVmKpiV7lRCOIOLt8LR
