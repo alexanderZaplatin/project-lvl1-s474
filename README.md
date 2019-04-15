@@ -7,11 +7,10 @@ This is a set of mini-games launched from the console. These games are similar t
 
 # Setup 
 ```sh
-$sudo npm install -g brain-games-durilka
+$ sudo npm install -g brain-games-durilka
 
 
 # Installation and playEven
-
 [![asciicast](https://asciinema.org/a/2bHsDT7NdpXoq7jM45iMSl10r.svg)](https://asciinema.org/a/2bHsDT7NdpXoq7jM45iMSl10r)
 
 # Installation and playCalc
